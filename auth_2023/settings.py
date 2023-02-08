@@ -1,11 +1,21 @@
-# Auth: 2:47
 # authentication - who you are
-# -multi-factor authenticaation
 # authorization - what you can do
 # cloudinary.com
 # lastpass.com
 # superuser - can do anything with Django Admin
 # staff - can access Django Admin
+'''
+MOST COMMON WEB SECURITY PROBLEMS
+- SQL Injection: someone an insert wrong info in our app's DB
+- Cross-site Scripting(XSS): asking people to click on our site and lead them to other place
+- URL/HTTP manipulation attacks(Parameter Tampering): manipulating the parameters exchanged between client and server
+- CSRF:
+- Brute Force Attacks (also DDoS): many requests to your site that make it stop
+- Insufficient Access Control:
+- Missing SSL(HTTPS)/MITM:
+- Phishing/Social Engineering: someone sends you email with 'click here' to change your pass
+- PIP INSTALL BLEACH - sanitizing library
+'''
 
 from pathlib import Path
 
